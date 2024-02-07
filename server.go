@@ -7,14 +7,17 @@ import (
 	"github.com/joho/godotenv"
 )
 
-var PriceAPIServer struct {
+type PriceAPIServer struct {
   API_PORT string
 }
 
+var ServerSettings = &PriceAPIServer{
+	API_PORT: "3000",
+}
+
 func loadServerConfig() {
-	PriceAPIServer.API_PORT = "3000"
 	if os.Getenv("API_PORT") != "" {
-		PriceAPIServer.API_PORT = os.Getenv("API_PORT")
+		ServerSettings.API_PORT = os.Getenv("API_PORT")
 	}
 }
 

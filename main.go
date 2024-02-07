@@ -15,5 +15,5 @@ func main() {
     })
   })
 
-  app.Listen(":" + PriceAPIServer.API_PORT)
+  app.Listen(":" + ServerSettings.API_PORT)
 }
