@@ -22,7 +22,9 @@ var defaultConfig = logger.Config{
 }
 
 func main() {
-  app := fiber.New()
+  app := fiber.New(fiber.Config{
+    EnableTrustedProxyCheck: true,
+  })
 
   // Logger middleware
   app.Use(logger.New(defaultConfig))
