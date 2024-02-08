@@ -10,8 +10,8 @@ import (
 )
 
 type PriceRow struct {
-	Price float64 `json:"p"`
-	Date string `json:"o"`
+	Price float64 `json:"o"`
+	Date string `json:"d"`
 }
 
 type ServiceRequestBitcoin struct {
