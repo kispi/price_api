@@ -24,7 +24,7 @@ var defaultConfig = logger.Config{
 
 func main() {
 	app := fiber.New(fiber.Config{
-		EnableTrustedProxyCheck: true,
+		ProxyHeader: fiber.HeaderXForwardedFor,
 	})
 
 	app.Use(middlewares.RealIP)
