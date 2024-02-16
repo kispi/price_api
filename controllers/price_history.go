@@ -34,9 +34,9 @@ func Bitcoin(c fiber.Ctx) error {
 
 	offset, _ := strconv.ParseInt(c.Query("offset"), 10, 64)
 	serviceRequestBitcoin := &services.ServiceRequestBitcoin{
-		Limit: limit,
+		Limit:     limit,
 		Timeframe: timeframe,
-		Offset: offset,
+		Offset:    offset,
 	}
 
 	priceService := &services.PriceService{}

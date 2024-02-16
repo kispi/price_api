@@ -5,7 +5,6 @@ import (
 	"time"
 
 	"github.com/kispi/price_api/controllers"
-	"github.com/kispi/price_api/middlewares"
 
 	"github.com/gofiber/fiber/v3"
 	"github.com/gofiber/fiber/v3/middleware/logger"
@@ -26,8 +25,6 @@ func main() {
 	app := fiber.New(fiber.Config{
 		ProxyHeader: fiber.HeaderXForwardedFor,
 	})
-
-	app.Use(middlewares.RealIP)
 
 	// Logger middleware
 	app.Use(logger.New(defaultConfig))

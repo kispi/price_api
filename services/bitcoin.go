@@ -11,16 +11,16 @@ import (
 
 type PriceRow struct {
 	Price float64 `json:"o"`
-	Date string `json:"d"`
+	Date  string  `json:"d"`
 }
 
 type ServiceRequestBitcoin struct {
-	Limit int64
-	Offset int64
+	Limit     int64
+	Offset    int64
 	Timeframe string
 }
 
-type PriceService struct {}
+type PriceService struct{}
 
 var priceData []*PriceRow
 
@@ -53,50 +53,50 @@ func (s *PriceService) Bitcoin(r *ServiceRequestBitcoin) *fiber.Map {
 	for _, row := range priceData {
 		t, err := time.Parse("2006-01-02", row.Date)
 		if err != nil {
-				log.Error(err)
-				continue
+			log.Error(err)
+			continue
 		}
 
 		switch r.Timeframe {
 		case "year":
 			_, month, day := t.Date()
 			if month == 1 && day == 1 {
-					result = append(result, row)
+				result = append(result, row)
 			}
 		case "month":
 			_, _, day := t.Date()
 			if day == 1 {
-					result = append(result, row)
+				result = append(result, row)
 			}
 		case "week":
 			weekday := t.Weekday()
 			if weekday == time.Monday {
-					result = append(result, row)
+				result = append(result, row)
 			}
 		default:
 			result = append(result, row)
 		}
 	}
-	
+
 	total := len(result)
-	
+
 	if int(r.Offset) >= total {
 		result = []*PriceRow{}
 	} else {
 		result = result[int(r.Offset):]
 	}
-	
+
 	if len(result) > int(r.Limit) {
 		result = result[:r.Limit]
 	}
-	
+
 	// Prepare response map
 	response := &fiber.Map{
-		"data":  result,
-		"total": total,
-		"limit": r.Limit,
+		"data":   result,
+		"total":  total,
+		"limit":  r.Limit,
 		"offset": r.Offset,
 	}
-	
+
 	return response
 }

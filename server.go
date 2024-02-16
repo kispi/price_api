@@ -8,7 +8,7 @@ import (
 )
 
 type PriceAPIServer struct {
-  API_PORT string
+	API_PORT string
 }
 
 var ServerSettings = &PriceAPIServer{
@@ -23,8 +23,8 @@ func loadServerConfig() {
 
 func init() {
 	loadServerConfig()
-  err := godotenv.Load()
-  if err != nil {
-    log.Fatal("Error loading .env file")
-  }
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
 }
