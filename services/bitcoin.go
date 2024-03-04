@@ -25,6 +25,8 @@ type PriceService struct{}
 var priceData []*PriceRow
 
 // Once the price data is loaded, it is cached in the priceData.
+// Source: https://www.investing.com/crypto/bitcoin/historical-data
+// API isn't available, so hardcoded json file is used.
 func loadBitcoinPriceData() []*PriceRow {
 	if priceData != nil {
 		return priceData
