@@ -7,6 +7,7 @@ import (
 	"github.com/kispi/price_api/controllers"
 
 	"github.com/gofiber/fiber/v3"
+	"github.com/gofiber/fiber/v3/middleware/cors"
 	"github.com/gofiber/fiber/v3/middleware/logger"
 )
 
@@ -26,8 +27,10 @@ func main() {
 		ProxyHeader: fiber.HeaderXForwardedFor,
 	})
 
-	// Logger middleware
 	app.Use(logger.New(defaultConfig))
+	app.Use(cors.New(cors.Config{
+		AllowOrigins: "https://coinsect.io, https://btc.coinsect.io",
+	}))
 
 	app.Get("/bitcoin/price", controllers.Price)
 	app.Get("/bitcoin/quotes", controllers.Quotes)
