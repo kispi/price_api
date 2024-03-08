@@ -1,5 +1,8 @@
 [{
   "name": "Michael Saylor",
+  "descriptions": [
+    "Ex-CEO of Microstrategy"
+  ],
   "quotes": [{
     "text": "#Bitcoin days are numbered.   It seems like just a matter of time before it suffers the same fate as online gambling.",
     "source": "https://twitter.com/saylor/status/413478389329428480",
@@ -18,6 +21,9 @@
   "take": "positive"
 }, {
   "name": "Finance Guy",
+  "descriptions": [
+    "Random internet guy"
+  ],
   "quotes": [{
     "text": "The end game of bitcoin is only to sell it.",
     "source": "https://x.com/GuyTalksFinance/status/1765583325467410470?s=20",
@@ -29,6 +35,10 @@
   "take": "negative"
 }, {
   "name": "Peter Schiff",
+  "descriptions": [
+    "The founder of Euro Pacific Capital.",
+    "Economist"
+  ],
   "quotes": [{
     "text": "Bitcoin is the biggest bubble of all time.",
     "source": "https://www.youtube.com/watch?v=2niV3-3X0-A",
@@ -44,6 +54,10 @@
   "take": "negative"
 }, {
   "name": "Dave Ramsey",
+  "descriptions": [
+    "Host of RamseyShow",
+    "Financial Advisor"
+  ],
   "quotes": [{
     "text": "Bitcoin is stupid investment.",
     "source": "https://www.fool.com/the-ascent/cryptocurrency/articles/should-you-invest-in-crypto-dave-ramsey/",
@@ -55,6 +69,9 @@
   "take": "negative"
 }, {
   "name": "Peter Zeihan",
+  "descriptions": [
+    "Geopolitical strategist"
+  ],
   "quotes": [{
     "text": "Bitcoin is a fraud and scam. It will go to zero.",
     "source": "https://www.youtube.com/watch?v=pYEovL6eGMc",
@@ -66,8 +83,23 @@
   "take": "negative"
 }, {
   "name": "Nassim Taleb",
+  "descriptions": [
+    "Mathematical statistician",
+    "Essayist",
+    "Former option trader"
+  ],
   "quotes": [{
-    "text": "Death Spiral"
+    "text": "Bitcoin is a tulip-bubble.",
+    "source": "https://twitter.com/nntaleb/status/1451152923392675840",
+    "date": "2021-10"
+  }, {
+    "text": "Bitcoin is no hedge for adversity nor inflation nor deflation nor currency but nothing.",
+    "source": "https://twitter.com/nntaleb/status/1467098737021493252",
+    "date": "2021-12"
+  }, {
+    "text": "Bitcoin is a contagious disease.",
+    "source": "https://twitter.com/nntaleb/status/1483087946504933376",
+    "date": "2022-01"
   }],
   "images": [
     "https://upload.wikimedia.org/wikipedia/commons/9/9b/Taleb_mug.JPG"
@@ -75,6 +107,9 @@
   "take": "negative"
 }, {
   "name": "Jamie Dimon",
+  "descriptions": [
+    "CEO of JPMorgan Chase"
+  ],
   "quotes": [{
     "text": "Bitcoin is a pet rock. It's only good for fraud and drug dealers.",
     "source": "https://www.coindesk.com/business/2024/01/17/jamie-dimon-bashes-bitcoin-again-a-pet-rock",
@@ -90,6 +125,9 @@
   "take": "negative"
 }, {
   "name": "Nouriel Roubini",
+  "descriptions": [
+    "Economist"
+  ],
   "quotes": [{
     "text": "Bitcoin is the mother of all scams and bubbles.",
     "source": "https://www.businessinsider.com/bitcoin-the-mother-of-all-bubbles-is-now-crashing-2018-2",
@@ -101,10 +139,17 @@
   "take": "negative"
 }, {
   "name": "Warren Buffet",
+  "descriptions": [
+    "CEO of Berkshire Hathaway"
+  ],
   "quotes": [{
     "text": "Bitcoin is rat poison squared.",
     "source": "https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html",
     "date": "2018-05"
+  }, {
+    "text": "If you offer all of the bitcoin in the world for $25, I wouldn't take it. What would I do with it?",
+    "source": "https://www.youtube.com/watch?v=HVm7Pfb0ilY",
+    "date": "2022-05"
   }],
   "images": [
     "https://cdn.britannica.com/89/188789-050-51EA5258/Warren-Buffett.jpg"
@@ -112,6 +157,9 @@
   "take": "negative"
 }, {
   "name": "Charlie Munger",
+  "descriptions": [
+    "EX-vice chairman of Berkshire Hathaway"
+  ],
   "quotes": [{
     "text": "Bitcoin is disgusting and contrary to the interests of civilization.",
     "source": "https://www.cnbc.com/2021/05/01/charlie-munger-calls-bitcoin-disgusting-and-contrary-to-the-interests-of-civilization.html",
@@ -127,6 +175,9 @@
   "take": "negative"
 }, {
   "name": "Bill Gates",
+  "descriptions": [
+    "The founder of Microsoft"
+  ],
   "quotes": [{
     "text": "I would short bitcoin if I could.",
     "source": "https://www.cnbc.com/2018/05/07/bill-gates-i-would-short-bitcoin-if-i-could.html",
@@ -138,6 +189,24 @@
   }],
   "images": [
     "https://image.cnbcfm.com/api/v1/image/105894487-15571466884731u8a0054r.jpg?v=1585159939&w=740&h=416&ffmt=webp&vtcrop=y"
+  ],
+  "take": "negative"
+}, {
+  "name": "Paul Krugman",
+  "descriptions": [
+    "Nobel laureate economist"
+  ],
+  "quotes": [{
+    "text": "Adam Smith Hates Bitcoin",
+    "source": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2013/04/12/adam-smith-hates-bitcoin/?searchResultPosition=4&mtrref=www.nytimes.com&assetType=PAYWALL&mtrref=archive.nytimes.com&assetType=PAYWALL&mtrref=archive.nytimes.com&gwh=F07EC3E7AE0A6864F91DD3A503C87F6F&gwt=pay&assetType=PAYWALL",
+    "date": "2013-04"
+  }, {
+    "text": "Bitcoin is a Ponzi scheme.",
+    "source": "https://www.nytimes.com/2022/06/17/opinion/crypto-bitcoin-inflation-gold.html?searchResultPosition=11",
+    "date": "2022-06"
+  }],
+  "images": [
+    "https://i.insider.com/6331a720329bac00182f2b8b?width=1136&format=jpeg"
   ],
   "take": "negative"
 }]
