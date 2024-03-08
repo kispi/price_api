@@ -51,7 +51,8 @@
   }],
   "images": [
     "https://static.news.bitcoin.com/wp-content/uploads/2024/02/dave-ramsey-crypto.jpg"
-  ]
+  ],
+  "take": "negative"
 }, {
   "name": "Peter Zeihan",
   "quotes": [{
