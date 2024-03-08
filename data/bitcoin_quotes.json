@@ -14,7 +14,9 @@
   "quotes": [{
     "text": "Bitcoin is a fraud and scam. It will go to zero."
   }],
-  "images": "https://zeihan.com/wp-content/uploads/2020/01/zeihan-seo.jpg",
+  "images": [
+    "https://zeihan.com/wp-content/uploads/2020/01/zeihan-seo.jpg"
+  ],
   "take": "negative"
 }, {
   "name": "Nassim Taleb",

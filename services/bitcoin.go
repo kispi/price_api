@@ -31,6 +31,8 @@ type QuoteRow struct {
 		Source string `json:"source"`
 		Date   string `json:"date"`
 	} `json:"quotes"`
+	Images []string `json:"images"`
+	Take   string   `json:"take"`
 }
 
 var quotesData []*QuoteRow
