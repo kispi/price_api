@@ -25,14 +25,15 @@ type BitcoinService struct{}
 var priceData []*PriceRow
 
 type QuoteRow struct {
-	Name   string `json:"name"`
-	Quotes []struct {
+	Name         string `json:"name"`
+	Descriptions []string `json:"descriptions"`
+	Quotes       []struct {
 		Text   string `json:"text"`
 		Source string `json:"source"`
 		Date   string `json:"date"`
 	} `json:"quotes"`
-	Images []string `json:"images"`
-	Take   string   `json:"take"`
+	Images       []string `json:"images"`
+	Take         string   `json:"take"`
 }
 
 var quotesData []*QuoteRow
