@@ -14,15 +14,26 @@ type PriceRow struct {
 	Date  string  `json:"d"`
 }
 
-type ServiceRequestBitcoin struct {
+type ServiceRequestBitcoinPrice struct {
 	Limit     int64
 	Offset    int64
 	Timeframe string
 }
 
-type PriceService struct{}
+type BitcoinService struct{}
 
 var priceData []*PriceRow
+
+type QuoteRow struct {
+	Name   string `json:"name"`
+	Quotes []struct {
+		Text   string `json:"text"`
+		Source string `json:"source"`
+		Date   string `json:"date"`
+	} `json:"quotes"`
+}
+
+var quotesData []*QuoteRow
 
 // Once the price data is loaded, it is cached in the priceData.
 // Source: https://www.investing.com/crypto/bitcoin/historical-data
@@ -33,7 +44,7 @@ func loadBitcoinPriceData() []*PriceRow {
 	}
 
 	log.Debug("Loading bitcoin price data")
-	file, err := os.ReadFile("data/price_bitcoin.json")
+	file, err := os.ReadFile("data/bitcoin_price.json")
 	if err != nil {
 		log.Error(err)
 		return nil
@@ -48,7 +59,7 @@ func loadBitcoinPriceData() []*PriceRow {
 	return priceData
 }
 
-func (s *PriceService) Bitcoin(r *ServiceRequestBitcoin) *fiber.Map {
+func (s *BitcoinService) Price(r *ServiceRequestBitcoinPrice) *fiber.Map {
 	priceData := loadBitcoinPriceData()
 
 	result := make([]*PriceRow, 0)
@@ -101,4 +112,29 @@ func (s *PriceService) Bitcoin(r *ServiceRequestBitcoin) *fiber.Map {
 	}
 
 	return response
+}
+
+func loadBitcoinQuotes() []*QuoteRow {
+	if quotesData != nil {
+		return quotesData
+	}
+
+	log.Debug("Loading bitcoin quotes")
+	file, err := os.ReadFile("data/bitcoin_quotes.json")
+	if err != nil {
+		log.Error(err)
+		return nil
+	}
+
+	err = json.Unmarshal(file, &quotesData)
+	if err != nil {
+		log.Error(err)
+		return nil
+	}
+
+	return quotesData
+}
+
+func (s *BitcoinService) Quotes() []*QuoteRow {
+	return loadBitcoinQuotes()
 }

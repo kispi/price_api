@@ -29,7 +29,8 @@ func main() {
 	// Logger middleware
 	app.Use(logger.New(defaultConfig))
 
-	app.Get("/prices/bitcoin", controllers.Bitcoin)
+	app.Get("/bitcoin/price", controllers.Price)
+	app.Get("/bitcoin/quotes", controllers.Quotes)
 
 	app.Listen(":" + ServerSettings.API_PORT)
 }

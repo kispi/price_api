@@ -11,7 +11,7 @@ const (
 	queryLimit = 200
 )
 
-func Bitcoin(c fiber.Ctx) error {
+func Price(c fiber.Ctx) error {
 	timeframe := c.Query("timeframe")
 	if timeframe != "" && timeframe != "month" && timeframe != "week" && timeframe != "year" {
 		c.Status(400).JSON(fiber.Map{
@@ -33,13 +33,19 @@ func Bitcoin(c fiber.Ctx) error {
 	}
 
 	offset, _ := strconv.ParseInt(c.Query("offset"), 10, 64)
-	serviceRequestBitcoin := &services.ServiceRequestBitcoin{
+	serviceRequestBitcoinPrice := &services.ServiceRequestBitcoinPrice{
 		Limit:     limit,
 		Timeframe: timeframe,
 		Offset:    offset,
 	}
 
-	priceService := &services.PriceService{}
-	c.JSON(priceService.Bitcoin(serviceRequestBitcoin))
+	bitcoinService := &services.BitcoinService{}
+	c.JSON(bitcoinService.Price(serviceRequestBitcoinPrice))
+	return nil
+}
+
+func Quotes(c fiber.Ctx) error {
+	bitcoinService := &services.BitcoinService{}
+	c.JSON(bitcoinService.Quotes())
 	return nil
 }

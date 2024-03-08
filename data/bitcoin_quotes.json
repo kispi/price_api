@@ -1,0 +1,109 @@
+[{
+  "name": "Peter Schiff",
+  "quotes": [{
+    "text": "Bitcoin is backed by nothing."
+  }, {
+    "text": "Bitcoin has no intrinsic value."
+  }],
+  "images": [
+    "https://i.ytimg.com/vi/4L4BYWWO_pg/sddefault.jpg"
+  ],
+  "take": "negative"
+}, {
+  "name": "Peter Zeihan",
+  "quotes": [{
+    "text": "Bitcoin is a fraud and scam. It will go to zero."
+  }],
+  "images": "https://zeihan.com/wp-content/uploads/2020/01/zeihan-seo.jpg",
+  "take": "negative"
+}, {
+  "name": "Nassim Taleb",
+  "quotes": [{
+    "text": "Death Spiral"
+  }],
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/9/9b/Taleb_mug.JPG"
+  ],
+  "take": "negative"
+}, {
+  "name": "Jamie Dimon",
+  "quotes": [{
+    "text": "Bitcoin is a pet rock. It's only good for fraud and drug dealers.",
+    "source": "https://www.coindesk.com/business/2024/01/17/jamie-dimon-bashes-bitcoin-again-a-pet-rock",
+    "date": "2024-01"
+  }, {
+    "text": "Bitcoin is a 'fraud' only useful for drug dealers and North Korea.",
+    "source": "https://www.ibtimes.co.uk/bitcoin-fraud-only-useful-drug-dealers-north-korea-says-jpmorgan-ceo-jamie-dimon-1639212",
+    "date": "2017-09"
+  }],
+  "images": [
+    "https://www.thestreet.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjAyMDMyNzgyODcwODQ5NDU5/jpmorgan-chase--co-chief-executive-officer-jamie-dimon-interview.jpg"
+  ],
+  "take": "negative"
+}, {
+  "name": "Nouriel Roubini",
+  "quotes": [{
+    "text": "Bitcoin is the mother of all scams and bubbles.",
+    "source": "https://www.businessinsider.com/bitcoin-the-mother-of-all-bubbles-is-now-crashing-2018-2",
+    "date": "2018-02"
+  }],
+  "images": [
+    "https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Afaa5095f-4532-44b0-87fd-7adb38464f56?source=next-article&fit=scale-down&quality=highest&width=1440&dpr=1"
+  ],
+  "take": "negative"
+}, {
+  "name": "Warren Buffet",
+  "quotes": [{
+    "text": "Bitcoin is rat poison squared.",
+    "source": "https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html",
+    "date": "2018-05"
+  }],
+  "images": [
+    "https://cdn.britannica.com/89/188789-050-51EA5258/Warren-Buffett.jpg"
+  ],
+  "take": "negative"
+}, {
+  "name": "Charlie Munger",
+  "quotes": [{
+    "text": "Bitcoin is disgusting and contrary to the interests of civilization.",
+    "source": "https://www.cnbc.com/2021/05/01/charlie-munger-calls-bitcoin-disgusting-and-contrary-to-the-interests-of-civilization.html",
+    "date": "2021-05"
+  }, {
+    "text": "I certainly didn't invest in crypto. I'm proud of the fact I've avoided it. It's like a venereal disease or something. I just regard it as beneath contempt,",
+    "source": "https://fortune.com/2022/02/17/charlie-munger-calls-crypto-venereal-disease-bitcoin-warren-buffett-nubank",
+    "date": "2022-02"
+  }],
+  "images": [
+    "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/4INRVLFIEFIZXPYMETDXNXTKL4.jpg"
+  ],
+  "take": "negative"
+}, {
+  "name": "Bill Gates",
+  "quotes": [{
+    "text": "I would short bitcoin if I could",
+    "source": "https://www.cnbc.com/2018/05/07/bill-gates-i-would-short-bitcoin-if-i-could.html",
+    "date": "2018-05"
+  }, {
+    "text": "If you have less money than Elon, watch out.",
+    "source": "https://www.cnbc.com/2022/03/09/bill-gates-on-bitcoin-if-you-have-less-money-than-elon-watch-out.html",
+    "date": "2022-03"
+  }],
+  "images": [
+    "https://image.cnbcfm.com/api/v1/image/105894487-15571466884731u8a0054r.jpg?v=1585159939&w=740&h=416&ffmt=webp&vtcrop=y"
+  ],
+  "take": "negative"
+}, {
+  "name": "Michael Saylor",
+  "quotes": [{
+    "text": "There is no second best.",
+    "source": "https://www.youtube.com/watch?v=Ow4i4p0RyvI"
+  }, {
+    "text": "Bitcoin is the first engineered monetary system in the history of the human race.",
+    "source": "https://www.youtube.com/watch?v=mph9xUEvjtU",
+    "date": "2021"
+  }],
+  "images": [
+    "https://pbs.twimg.com/profile_images/1485632175932383235/8t0DGo6V_400x400.jpg"
+  ],
+  "take": "positive"
+}]
