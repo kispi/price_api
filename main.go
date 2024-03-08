@@ -29,7 +29,7 @@ func main() {
 
 	app.Use(logger.New(defaultConfig))
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "https://coinsect.io, https://btc.coinsect.io",
+		AllowOrigins: "https://coinsect.io, https://btc.coinsect.io, http://localhost:4001",
 	}))
 
 	app.Get("/bitcoin/price", controllers.Price)
