@@ -17,9 +17,15 @@
     "source": "https://www.youtube.com/watch?v=mph9xUEvjtU",
     "date": "2021",
     "take": "positive"
+  }, {
+    "text": "If you have a superior asset, it's going up forever Laura.",
+    "source": "https://www.youtube.com/watch?v=zTPoRDrtc0s",
+    "date": "2021-03",
+    "take": "positive"
   }],
   "images": [
-    "https://pbs.twimg.com/profile_images/1485632175932383235/8t0DGo6V_400x400.jpg"
+    "https://pbs.twimg.com/profile_images/1485632175932383235/8t0DGo6V_400x400.jpg",
+    "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MF4DFFCZ5EI63PCAWWQTB6K644.jpg&w=1200"
   ],
   "take": "positive",
   "countryCode": "US"
@@ -57,7 +63,8 @@
     "take": "negative"
   }],
   "images": [
-    "https://yt3.googleusercontent.com/ytc/AIdro_l7zauxzNKIGhAtnCdM_pQs7nVZEqNH6ZdRxlGBdQ=s900-c-k-c0x00ffffff-no-rj"
+    "https://yt3.googleusercontent.com/ytc/AIdro_l7zauxzNKIGhAtnCdM_pQs7nVZEqNH6ZdRxlGBdQ=s900-c-k-c0x00ffffff-no-rj",
+    "https://image.cnbcfm.com/api/v1/image/101914700-RTR3P5TH.jpg?v=1529451494&w=750&h=422&vtcrop=y"
   ],
   "take": "negative",
   "countryCode": "US"
@@ -94,6 +101,22 @@
   ],
   "take": "negative",
   "countryCode": "US"
+}, {
+  "name": "Nayib Bukele",
+  "descriptions": [
+    "President of El Salvador"
+  ],
+  "quotes": [{
+    "text": "If the government can print unlimited amounts of money out of thin air, why do you pay taxes?",
+    "source": "https://x.com/LukeMikic21/status/1761031748333207945?s=20",
+    "date": "2024-02",
+    "take": "positive"
+  }],
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/ef/Presidente_Bukele_%28cropped%29.jpg"
+  ],
+  "take": "positive",
+  "countryCode": "SV"
 }, {
   "name": "Ray Dalio",
   "descriptions": [
@@ -154,6 +177,36 @@
   ],
   "take": "negative",
   "countryCode": "US"
+}, {
+  "name": "Jerome Powell",
+  "descriptions": [
+    "Chairman of the Federal Reserve"
+  ],
+  "quotes": [{
+    "text": "Bitcoin has staying power.",
+    "source": "https://finance.yahoo.com/news/fed-chair-powell-says-bitcoin-205620038.html",
+    "date": "2023-06",
+    "take": "positive"
+  }],
+  "images": [
+    "https://static01.nyt.com/images/2021/08/27/business/27economy-briefing-Fed/merlin_192058101_a2394676-eb0a-4506-9997-dd0a8c2629d2-mediumSquareAt3X.jpg"
+  ],
+  "take": "positive",
+  "countryCode": "US"
+}, {
+  "name": "Christine Lagarde",
+  "descriptions": [
+    "President of the European Central Bank"
+  ],
+  "quotes": [{
+    "text": "Bitcoin has conducted some funny business and some interesting and totally reprehensible money laundering activity.",
+    "source": "https://www.financemagnates.com/cryptocurrency/news/christine-lagarde-wants-global-regulation-of-bitcoin/",
+    "date": "2021-01",
+    "take": "negative"
+  }],
+  "images": [
+    "https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/MUQMKNBWWJHRFMQHJ4CAEGDVIM.jpg"
+  ]
 }, {
   "name": "Jamie Dimon",
   "descriptions": [
@@ -321,7 +374,30 @@
     "take": "negative"
   }],
   "images": [
-    "https://puck.news/wp-content/uploads/2022/02/GettyImages-1237125010-e1644973102799-1088x612.jpg"
+    "https://media.licdn.com/dms/image/C4D05AQHaW0K8lOsKKw/videocover-high/0/1643207022585?e=2147483647&v=beta&t=TN3O8VJ5eEsaQdxvH3Ndn7nQFDWFR9IJNFsbSYkC_XI",
+    "https://puck.news/wp-content/uploads/2022/02/GettyImages-1237125010-e1644973102799-1088x612.jpg",
+    "https://preview.redd.it/first-photo-of-sam-bankman-fried-in-jail-goes-hard-v0-vhhui2dzynjc1.jpeg?auto=webp&s=b276a86cd0154f91b5497d939bfc34479b22ab56"
+  ],
+  "take": "negative",
+  "countryCode": "US"
+}, {
+  "name": "Brad Garlinghouse",
+  "descriptions": [
+    "CEO of Ripple",
+    "Created 100B XRP out of thin air and dumping it on retail investors",
+    "Sued by SEC"
+  ],
+  "quotes": [{
+    "text": "Bitcoin is not the panacea. It's quite slow. XRP is much faster.",
+    "source": "https://www.cnbc.com/2018/06/05/ripple-ceo-bitcoin-is-not-the-panacea-people-thought.html",
+    "date": "2018-06"
+  }, {
+    "text": "XRP is the next Bitcoin if we solve a multi-trillion-dollar problem.",
+    "source": "https://www.binance.com/en/feed/post/1177302",
+    "date": "2023-09"
+  }],
+  "images": [
+    "https://image.cnbcfm.com/api/v1/image/105053486-_MG_4148.JPG?v=1520541933&w=929&h=523&vtcrop=y"
   ],
   "take": "negative",
   "countryCode": "US"
@@ -342,7 +418,9 @@
     "date": "2023-12"
   }],
   "images": [
-    "https://img-9gag-fun.9cache.com/photo/a9EwXE6_460s.jpg"
+    "https://img-9gag-fun.9cache.com/photo/a9EwXE6_460s.jpg",
+    "https://siamblockchain.com/wp-content/uploads/2021/04/charles-hoskinson-laughs-hard-meme.jpg",
+    "https://optimisus.com/wp-content/uploads/2023/08/Charles-Hoskinson.jpeg"
   ],
   "take": "negative",
   "countryCode": "US"
@@ -358,6 +436,7 @@
     "take": "negative"
   }],
   "images": [
+    "https://bitcoinnews.com/wp-content/uploads/2023/04/IMG-1-1-1024x768.webp",
     "https://media.tenor.com/1554Lx8TqOIAAAAM/richard-heart-twerk.gif"
   ],
   "take": "negative",
@@ -365,7 +444,8 @@
 }, {
   "name": "Vitalik Buterin",
   "descriptions": [
-    "Co-founder of Ethereum"
+    "Co-founder of Ethereum",
+    "The Icon of Sin of crypto"
   ],
   "quotes": [{
     "text": "Bitcoin isn't generating enough fees to secure its system. Sticking to proof-of-work could compromise Bitcoin's security.",
@@ -374,8 +454,86 @@
     "take": "negative"
   }],
   "images": [
-    "https://media1.tenor.com/m/PfCDJZzid18AAAAd/ethereum-buterin.gif"
+    "https://media1.tenor.com/m/PfCDJZzid18AAAAd/ethereum-buterin.gif",
+    "https://dailycoin.com/wp-content/uploads/2023/10/shiba-pajamas.jpg",
+    "https://dailycoin.com/wp-content/uploads/2023/10/Vitalik-Cat-bag.jpg",
+    "https://cdn.publish0x.com/prod/fs/images/b9fd80392cbea23bfc1da653cc14992cc119b9bdb7ea192b4d00973f90b4aa6b.jpeg"
   ],
   "take": "negative",
   "countryCode": "CH"
+}, {
+  "name": "James Rickards",
+  "descriptions": [
+    "Economist",
+    "Author",
+    "Investment banker"
+  ],
+  "quotes": [{
+    "text": "Bitcoin is a Ponzi with no one in charge. There's no Madoff, but it's working that way.",
+    "source": "https://www.youtube.com/watch?v=rotzgnrnfnY",
+    "date": "2017-10",
+    "take": "negative"
+  }],
+  "images": [
+    "https://thinkingheads.com/wp-content/uploads/2017/11/james-rickards-conferenciante-1.jpg"
+  ],
+  "take": "negative",
+  "countryCode": "US"
+}, {
+  "name": "Robert Kiyoasaki",
+  "descriptions": [
+    "Author of [Rich Dad Poor Dad]",
+    "Businessman"
+  ],
+  "quotes": [{
+    "text": "I love bitcoin because I do not trust Fed, Treasury, or Wall Street.",
+    "source": "https://x.com/theRealKiyosaki/status/1449087804290453507?s=20",
+    "date": "2021-10",
+    "take": "positive"
+  }, {
+    "text": "Not buying bitcoin is the biggest mistake you can make.",
+    "source": "https://finance.yahoo.com/news/robert-kiyosaki-not-buying-bitcoin-184327600.html",
+    "date": "2024-03",
+    "take": "positive"
+  }],
+  "images": [
+    "https://pbs.twimg.com/profile_images/472421066007015424/MHUJj15g_400x400.jpeg"
+  ],
+  "take": "positive",
+  "countryCode": "US"
+}, {
+  "name": "Tim Cook",
+  "descriptions": [
+    "CEO of Apple"
+  ],
+  "quotes": [{
+    "text": "I own bitcoin. It's reasonable to own it as a part of a diversified portfolio.",
+    "source": "https://www.forbes.com/sites/nicholasreimann/2021/11/09/apples-tim-cook-says-he-owns-cryptocurrency-calls-it-reasonable/?sh=70defdc36044",
+    "date": "2021-11",
+    "take": "positive"
+  }],
+  "images": [
+    "https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
+  ],
+  "take": "positive",
+  "countryCode": "US"
+}, {
+  "name": "Michael Burry",
+  "descriptions": [
+    "Investor",
+    "Hedge fund manager",
+    "Famous for predicting the 2008 financial crisis",
+    "Protagonist of [The Big Short]"
+  ],
+  "quotes": [{
+    "text": "Bitcoin is a speculative bubble that poses more risk than opportunity. Governments will crush it, and it's not a good store of value nor hedge against inflation. It has no intrinsic value.",
+    "source": "https://dailyinvestor.com/cryptocurrency/207/why-michael-burry-does-not-invest-in-bitcoin/",
+    "date": "2022-08",
+    "take": "negative"
+  }],
+  "images": [
+    "https://image.cnbcfm.com/api/v1/image/103218290-GettyImages-498516206.jpg?v=1698414656&w=1600&h=900"
+  ],
+  "take": "negative",
+  "countryCode": "US"
 }]
