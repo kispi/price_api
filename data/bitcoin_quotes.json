@@ -206,7 +206,9 @@
   }],
   "images": [
     "https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/MUQMKNBWWJHRFMQHJ4CAEGDVIM.jpg"
-  ]
+  ],
+  "take": "negative",
+  "countryCode": "FR"
 }, {
   "name": "Jamie Dimon",
   "descriptions": [
