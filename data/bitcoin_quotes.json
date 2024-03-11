@@ -1,24 +1,28 @@
 [{
   "name": "Michael Saylor",
   "descriptions": [
-    "Ex-CEO of Microstrategy"
+    "Former-CEO of Microstrategy"
   ],
   "quotes": [{
     "text": "#Bitcoin days are numbered.   It seems like just a matter of time before it suffers the same fate as online gambling.",
     "source": "https://twitter.com/saylor/status/413478389329428480",
-    "date": "2013-12"
+    "date": "2013-12",
+    "take": "negative"
   }, {
     "text": "There is no second best.",
-    "source": "https://www.youtube.com/watch?v=Ow4i4p0RyvI"
+    "source": "https://www.youtube.com/watch?v=Ow4i4p0RyvI",
+    "take": "positive"
   }, {
     "text": "Bitcoin is the first engineered monetary system in the history of the human race.",
     "source": "https://www.youtube.com/watch?v=mph9xUEvjtU",
-    "date": "2021"
+    "date": "2021",
+    "take": "positive"
   }],
   "images": [
     "https://pbs.twimg.com/profile_images/1485632175932383235/8t0DGo6V_400x400.jpg"
   ],
-  "take": "positive"
+  "take": "positive",
+  "countryCode": "US"
 }, {
   "name": "Finance Guy",
   "descriptions": [
@@ -27,12 +31,14 @@
   "quotes": [{
     "text": "The end game of bitcoin is only to sell it.",
     "source": "https://x.com/GuyTalksFinance/status/1765583325467410470?s=20",
-    "date": "2024-03"
+    "date": "2024-03",
+    "take": "negative"
   }],
   "images": [
     "https://pbs.twimg.com/profile_images/1676411270663221249/wggCxqEr_400x400.jpg"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Peter Schiff",
   "descriptions": [
@@ -42,16 +48,19 @@
   "quotes": [{
     "text": "Bitcoin is the biggest bubble of all time.",
     "source": "https://www.youtube.com/watch?v=2niV3-3X0-A",
-    "date": "2021-09"
+    "date": "2021-09",
+    "take": "negative"
   }, {
     "text": "No one needs Bitcoin. Bitcoin is nothing but a cult.",
     "source": "https://news.bitcoin.com/peter-schiff-no-one-needs-bitcoin/",
-    "date": "2023-10"
+    "date": "2023-10",
+    "take": "negative"
   }],
   "images": [
-    "https://i.ytimg.com/vi/4L4BYWWO_pg/sddefault.jpg"
+    "https://yt3.googleusercontent.com/ytc/AIdro_l7zauxzNKIGhAtnCdM_pQs7nVZEqNH6ZdRxlGBdQ=s900-c-k-c0x00ffffff-no-rj"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Dave Ramsey",
   "descriptions": [
@@ -61,12 +70,14 @@
   "quotes": [{
     "text": "Bitcoin is stupid investment.",
     "source": "https://www.fool.com/the-ascent/cryptocurrency/articles/should-you-invest-in-crypto-dave-ramsey/",
-    "date": "2021-04"
+    "date": "2021-04",
+    "take": "negative"
   }],
   "images": [
     "https://static.news.bitcoin.com/wp-content/uploads/2024/02/dave-ramsey-crypto.jpg"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Peter Zeihan",
   "descriptions": [
@@ -75,12 +86,46 @@
   "quotes": [{
     "text": "Bitcoin is a fraud and scam. It will go to zero.",
     "source": "https://www.youtube.com/watch?v=pYEovL6eGMc",
-    "date": "2023-01"
+    "date": "2023-01",
+    "take": "negative"
   }],
   "images": [
     "https://zeihan.com/wp-content/uploads/2020/01/zeihan-seo.jpg"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
+}, {
+  "name": "Ray Dalio",
+  "descriptions": [
+    "Founder of Bridgewater Associates"
+  ],
+  "quotes": [{
+    "text": "I don't understand why people are more inclined to go to bitcoin than gold.",
+    "source": "https://www.marketwatch.com/story/i-dont-understand-why-people-are-more-inclined-to-go-to-bitcoin-than-gold-says-hedge-fund-billionaire-ray-dalio-5bb0c823",
+    "date": "2023-04",
+    "take": "negative"
+  }],
+  "images": [
+    "https://bridgewater.brightspotcdn.com/ac/9a/dac029d94866adf1cb3f01c1521b/ray-dalio-083120.jpg"
+  ],
+  "take": "negative",
+  "countryCode": "US"
+}, {
+  "name": "Bill Miller",
+  "descriptions": [
+    "Investor",
+    "Fund manager"
+  ],
+  "quotes": [{
+    "text": "I haven’t heard a good argument about why you wouldn’t put 1% of your liquid net worth in bitcoin.",
+    "source": "https://news.bitcoin.com/veteran-investor-bill-miller-remains-bullish-on-bitcoin-confirms-he-has-a-lot-of-btc/",
+    "take": "positive"
+  }],
+  "images": [
+    "https://image.cnbcfm.com/api/v1/image/104073457-IMG_2083r.jpg?v=1478114950"
+  ],
+  "take": "positive",
+  "countryCode": "US"
 }, {
   "name": "Nassim Taleb",
   "descriptions": [
@@ -91,20 +136,24 @@
   "quotes": [{
     "text": "Bitcoin is a tulip-bubble.",
     "source": "https://twitter.com/nntaleb/status/1451152923392675840",
-    "date": "2021-10"
+    "date": "2021-10",
+    "take": "negative"
   }, {
     "text": "Bitcoin is no hedge for adversity nor inflation nor deflation nor currency but nothing.",
     "source": "https://twitter.com/nntaleb/status/1467098737021493252",
-    "date": "2021-12"
+    "date": "2021-12",
+    "take": "negative"
   }, {
     "text": "Bitcoin is a contagious disease.",
     "source": "https://twitter.com/nntaleb/status/1483087946504933376",
-    "date": "2022-01"
+    "date": "2022-01",
+    "take": "negative"
   }],
   "images": [
     "https://upload.wikimedia.org/wikipedia/commons/9/9b/Taleb_mug.JPG"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Jamie Dimon",
   "descriptions": [
@@ -113,16 +162,19 @@
   "quotes": [{
     "text": "Bitcoin is a pet rock. It's only good for fraud and drug dealers.",
     "source": "https://www.coindesk.com/business/2024/01/17/jamie-dimon-bashes-bitcoin-again-a-pet-rock",
-    "date": "2024-01"
+    "date": "2024-01",
+    "take": "negative"
   }, {
     "text": "Bitcoin is a 'fraud' only useful for drug dealers and North Korea.",
     "source": "https://www.ibtimes.co.uk/bitcoin-fraud-only-useful-drug-dealers-north-korea-says-jpmorgan-ceo-jamie-dimon-1639212",
-    "date": "2017-09"
+    "date": "2017-09",
+    "take": "negative"
   }],
   "images": [
     "https://www.thestreet.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjAyMDMyNzgyODcwODQ5NDU5/jpmorgan-chase--co-chief-executive-officer-jamie-dimon-interview.jpg"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Nouriel Roubini",
   "descriptions": [
@@ -131,12 +183,14 @@
   "quotes": [{
     "text": "Bitcoin is the mother of all scams and bubbles.",
     "source": "https://www.businessinsider.com/bitcoin-the-mother-of-all-bubbles-is-now-crashing-2018-2",
-    "date": "2018-02"
+    "date": "2018-02",
+    "take": "negative"
   }],
   "images": [
     "https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Afaa5095f-4532-44b0-87fd-7adb38464f56?source=next-article&fit=scale-down&quality=highest&width=1440&dpr=1"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Warren Buffet",
   "descriptions": [
@@ -145,34 +199,40 @@
   "quotes": [{
     "text": "Bitcoin is rat poison squared.",
     "source": "https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html",
-    "date": "2018-05"
+    "date": "2018-05",
+    "take": "negative"
   }, {
     "text": "If you offer all of the bitcoin in the world for $25, I wouldn't take it. What would I do with it?",
     "source": "https://www.youtube.com/watch?v=HVm7Pfb0ilY",
-    "date": "2022-05"
+    "date": "2022-05",
+    "take": "negative"
   }],
   "images": [
     "https://cdn.britannica.com/89/188789-050-51EA5258/Warren-Buffett.jpg"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Charlie Munger",
   "descriptions": [
-    "EX-vice chairman of Berkshire Hathaway"
+    "Former-vice chairman of Berkshire Hathaway"
   ],
   "quotes": [{
     "text": "Bitcoin is disgusting and contrary to the interests of civilization.",
     "source": "https://www.cnbc.com/2021/05/01/charlie-munger-calls-bitcoin-disgusting-and-contrary-to-the-interests-of-civilization.html",
-    "date": "2021-05"
+    "date": "2021-05",
+    "take": "negative"
   }, {
     "text": "I certainly didn't invest in crypto. I'm proud of the fact I've avoided it. It's like a venereal disease or something. I just regard it as beneath contempt,",
     "source": "https://fortune.com/2022/02/17/charlie-munger-calls-crypto-venereal-disease-bitcoin-warren-buffett-nubank",
-    "date": "2022-02"
+    "date": "2022-02",
+    "take": "negative"
   }],
   "images": [
     "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/4INRVLFIEFIZXPYMETDXNXTKL4.jpg"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Bill Gates",
   "descriptions": [
@@ -181,16 +241,19 @@
   "quotes": [{
     "text": "I would short bitcoin if I could.",
     "source": "https://www.cnbc.com/2018/05/07/bill-gates-i-would-short-bitcoin-if-i-could.html",
-    "date": "2018-05"
+    "date": "2018-05",
+    "take": "negative"
   }, {
     "text": "If you have less money than Elon, watch out.",
     "source": "https://www.cnbc.com/2022/03/09/bill-gates-on-bitcoin-if-you-have-less-money-than-elon-watch-out.html",
-    "date": "2022-03"
+    "date": "2022-03",
+    "take": "negative"
   }],
   "images": [
     "https://image.cnbcfm.com/api/v1/image/105894487-15571466884731u8a0054r.jpg?v=1585159939&w=740&h=416&ffmt=webp&vtcrop=y"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
 }, {
   "name": "Paul Krugman",
   "descriptions": [
@@ -199,14 +262,120 @@
   "quotes": [{
     "text": "Adam Smith Hates Bitcoin",
     "source": "https://archive.nytimes.com/krugman.blogs.nytimes.com/2013/04/12/adam-smith-hates-bitcoin/?searchResultPosition=4&mtrref=www.nytimes.com&assetType=PAYWALL&mtrref=archive.nytimes.com&assetType=PAYWALL&mtrref=archive.nytimes.com&gwh=F07EC3E7AE0A6864F91DD3A503C87F6F&gwt=pay&assetType=PAYWALL",
-    "date": "2013-04"
+    "date": "2013-04",
+    "take": "negative"
   }, {
     "text": "Bitcoin is a Ponzi scheme.",
     "source": "https://www.nytimes.com/2022/06/17/opinion/crypto-bitcoin-inflation-gold.html?searchResultPosition=11",
-    "date": "2022-06"
+    "date": "2022-06",
+    "take": "negative"
   }],
   "images": [
     "https://i.insider.com/6331a720329bac00182f2b8b?width=1136&format=jpeg"
   ],
-  "take": "negative"
+  "take": "negative",
+  "countryCode": "US"
+}, {
+  "name": "Simin Rhyu",
+  "descriptions": [
+    "Economist",
+    "Former minister of health and welfare"
+  ],
+  "quotes": [{
+    "text": "Bitcoin is the most esoteric and elegant Ponzi scheme ever in history. Why buy fake money with real money?",
+    "source": "https://www.youtube.com/watch?v=VpEbkD8Jyfc",
+    "date": "2022-07",
+    "take": "negative"
+  }],
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/b/b7/160824_Rhyu_Si-min.png"
+  ],
+  "take": "negative",
+  "countryCode": "KR"
+}, {
+  "name": "Lukas Yoon",
+  "descriptions": [
+    "Economics YouTuber",
+    "Author"
+  ],
+  "quotes": [{
+    "text": "Bitcoin is the greator fool theory.",
+    "source": "https://www.youtube.com/watch?v=F_sIx_kIjQA",
+    "date": "2023-11-07",
+    "take": "negative"
+  }],
+  "images": [
+    "https://todaystarissue.com/wp-content/uploads/2023/07/20230712133532.png"
+  ],
+  "take": "negative",
+  "countryCode": "KR"
+}, {
+  "name": "Sam Bankman-Fried",
+  "descriptions": [
+    "Former-CEO of FTX"
+  ],
+  "quotes": [{
+    "text": "Bitcoin is not a payments network nor a scaling network. PoS are efficient and lightweight and lower energy cost network.",
+    "source": "https://www.investing.com/news/cryptocurrency-news/bitcoin-is-not-the-future-of-payments-sbf-lampoons-the-flagship-crypto-2825796",
+    "date": "2022-05",
+    "take": "negative"
+  }],
+  "images": [
+    "https://puck.news/wp-content/uploads/2022/02/GettyImages-1237125010-e1644973102799-1088x612.jpg"
+  ],
+  "take": "negative",
+  "countryCode": "US"
+}, {
+  "name": "Charles Hoskinson",
+  "descriptions": [
+    "Co-founder of Ethereum",
+    "Founder of Cardano"
+  ],
+  "quotes": [{
+    "text": "Bitcoin is 'own worst enemy' and will lose to Ethereum.",
+    "source": "https://cointelegraph.com/news/bitcoin-is-own-worst-enemy-and-will-lose-to-ethereum-charles-hoskinson",
+    "date": "2021-06",
+    "take": "negative"
+  }, {
+    "text": "I print money for a living.",
+    "source": "https://x.com/BitcoinNewsCom/status/1730269120262758878?s=20",
+    "date": "2023-12"
+  }],
+  "images": [
+    "https://img-9gag-fun.9cache.com/photo/a9EwXE6_460s.jpg"
+  ],
+  "take": "negative",
+  "countryCode": "US"
+}, {
+  "name": "Richard Heart",
+  "descriptions": [
+    "Founder of Hex"
+  ],
+  "quotes": [{
+    "text": "Bitcoin failed as a currency. It's extremely slow and expensive.",
+    "source": "https://medium.com/crypto-101/richard-heart-bitcoin-failed-as-a-currency-fc76b0bb8c75",
+    "date": " 2019-02",
+    "take": "negative"
+  }],
+  "images": [
+    "https://media.tenor.com/1554Lx8TqOIAAAAM/richard-heart-twerk.gif"
+  ],
+  "take": "negative",
+  "countryCode": "US"
+}, {
+  "name": "Vitalik Buterin",
+  "descriptions": [
+    "Co-founder of Ethereum"
+  ],
+  "quotes": [{
+    "text": "Bitcoin isn't generating enough fees to secure its system. Sticking to proof-of-work could compromise Bitcoin's security.",
+    "source": "https://www.fool.com/the-ascent/cryptocurrency/articles/vitalik-buterin-says-hes-worried-about-bitcoin-long-term-heres-why/",
+    "date": "2022-09",
+    "take": "negative"
+  }],
+  "images": [
+    "https://media1.tenor.com/m/PfCDJZzid18AAAAd/ethereum-buterin.gif"
+  ],
+  "take": "negative",
+  "countryCode": "CH"
 }]

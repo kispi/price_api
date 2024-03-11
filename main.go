@@ -32,8 +32,10 @@ func main() {
 		AllowOrigins: "https://coinsect.io, https://btc.coinsect.io, http://localhost:4001",
 	}))
 
-	app.Get("/bitcoin/price", controllers.Price)
-	app.Get("/bitcoin/quotes", controllers.Quotes)
+	app.Get("/goapi/bitcoin_price", controllers.Price)
+	app.Get("/goapi/bitcoin_quotes", controllers.Quotes)
+
+	app.Get("/goapi/countries", controllers.GetCountries)
 
 	app.Listen(":" + ServerSettings.API_PORT)
 }

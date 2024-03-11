@@ -1,0 +1,93 @@
+[{
+  "code": "US",
+  "name": "United States",
+  "emoji": "🇺🇸"
+}, {
+  "code": "CN",
+  "name": "China",
+  "emoji": "🇨🇳"
+}, {
+  "code": "KR",
+  "name": "South Korea",
+  "emoji": "🇰🇷"
+}, {
+  "code": "JP",
+  "name": "Japan",
+  "emoji": "🇯🇵"
+}, {
+  "code": "DE",
+  "name": "Germany",
+  "emoji": "🇩🇪"
+}, {
+  "code": "FR",
+  "name": "France",
+  "emoji": "🇫🇷"
+}, {
+  "code": "GB",
+  "name": "United Kingdom",
+  "emoji": "🇬🇧"
+}, {
+  "code": "IT",
+  "name": "Italy",
+  "emoji": "🇮🇹"
+}, {
+  "code": "ES",
+  "name": "Spain",
+  "emoji": "🇪🇸"
+}, {
+  "code": "IR",
+  "name": "Iran",
+  "emoji": "🇮🇷"
+}, {
+  "code": "TR",
+  "name": "Turkey",
+  "emoji": "🇹🇷"
+}, {
+  "code": "RU",
+  "name": "Russia",
+  "emoji": "🇷🇺"
+}, {
+  "code": "BR",
+  "name": "Brazil",
+  "emoji": "🇧🇷"
+}, {
+  "code": "CA",
+  "name": "Canada",
+  "emoji": "🇨🇦"
+}, {
+  "code": "AU",
+  "name": "Australia",
+  "emoji": "🇦🇺"
+}, {
+  "code": "IN",
+  "name": "India",
+  "emoji": "🇮🇳"
+}, {
+  "code": "SA",
+  "name": "Saudi Arabia",
+  "emoji": "🇸🇦"
+}, {
+  "code": "MX",
+  "name": "Mexico",
+  "emoji": "🇲🇽"
+}, {
+  "code": "ID",
+  "name": "Indonesia",
+  "emoji": "🇮🇩"
+}, {
+  "code": "NL",
+  "name": "Netherlands",
+  "emoji": "🇳🇱"
+}, {
+  "code": "BE",
+  "name": "Belgium",
+  "emoji": "🇧🇪"
+}, {
+  "code": "SE",
+  "name": "Sweden",
+  "emoji": "🇸🇪"
+}, {
+  "code": "CH",
+  "name": "Switzerland",
+  "emoji": "🇨🇭"
+}]
