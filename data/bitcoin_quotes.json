@@ -114,6 +114,11 @@
     "source": "https://www.fool.com/the-ascent/cryptocurrency/articles/should-you-invest-in-crypto-dave-ramsey/",
     "date": "2021-04",
     "take": "negative"
+  }, {
+    "text": "Where does #bitcoin's $1 trillion market cap come from? It's all mist and smoke and mirrors.",
+    "source": "https://x.com/BitcoinNewsCom/status/1768254717434499380?s=20",
+    "date": "2024-03",
+    "take": "negative"
   }],
   "images": [
     "https://static.news.bitcoin.com/wp-content/uploads/2024/02/dave-ramsey-crypto.jpg"
@@ -266,6 +271,43 @@
   ],
   "take": "negative",
   "countryCode": "KR"
+}, {
+  "name": "Craig Wright",
+  "descriptions": [
+    "Self-proclaimed Satoshi Nakamoto"
+  ],
+  "quotes": [{
+    "text": "If individuals run nodes, it's socialist system, not a capitalist system.",
+    "source": "https://coingeek.com/dr-craig-wright-talks-to-bitcoin-and-beyond-on-bitcoins-history/",
+    "date": "2019",
+    "take": "negative"
+  }, {
+    "text": "The purpose of bitcoin is not decentralisation. It's meant to be digital cash that supports small casual payments.",
+    "source": "https://x.com/Dr_CSWright/status/1508765606493003778?s=20",
+    "date": "2022-03",
+    "take": "negative"
+  }],
+  "images": [
+    "https://www.coindesk.com/resizer/v2/BRHTCBHJHBCXNL6F6NKI2GVHWM.jpg?auth=f353f7a631246cf9aee38abd407b1ed1eaf1a56cfecf1c01a63ad7bf69b00ddb&width=1056&height=594"
+  ],
+  "take": "negative",
+  "countryCode": "AU"
+}, {
+  "name": "James Mellor",
+  "descriptions": [
+    "British High Court Judge"
+  ],
+  "quotes": [{
+    "text": "Craig Wright is not the author of the Bitcoin white paper. He is not the author of the initial versions of the Bitcoin software.",
+    "source": "https://www.coindesk.com/policy/2024/03/14/craig-wright-not-satoshi-didnt-author-bitcoin-whitepaper-judge-rules/",
+    "date": "2024-03",
+    "take": "positive"
+  }],
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/2/25/James_Mellor.jpg"
+  ],
+  "take": "positive",
+  "countryCode": "GB"
 }, {
   "name": "Jamie Dimon",
   "descriptions": [
